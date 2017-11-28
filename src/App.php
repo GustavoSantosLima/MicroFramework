@@ -1,10 +1,10 @@
 <?php
 
-namespace ErikFig;
+namespace Gustavo;
 
-use ErikFig\Router\Router;
-use ErikFig\DI\Resolver;
-use ErikFig\Renderer\PHPRendererInterface;
+use Gustavo\Router\Router;
+use Gustavo\DI\Resolver;
+use Gustavo\Renderer\PHPRendererInterface;
 
 class App
 {

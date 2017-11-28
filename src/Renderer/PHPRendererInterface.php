@@ -1,6 +1,6 @@
 <?php
 
-namespace ErikFig\Renderer;
+namespace Gustavo\Renderer;
 
 interface PHPRendererInterface
 {

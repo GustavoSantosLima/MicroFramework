@@ -1,6 +1,6 @@
 <?php
 
-namespace ErikFig\Router;
+namespace Gustavo\Router;
 
 class Router
 {
@@ -63,6 +63,7 @@ class Router
             $replacement = $as[1] ?? '([a-zA-Z0-9\-\_\ ]+)';
             $regex = str_replace($variables[$k], $replacement, $regex);
         }
+
         $regex = preg_replace('/{([a-zA-Z]+)}/', '([a-zA-Z0-9+])', $regex);
         $result = preg_match('/^' . $regex . '$/', $subject, $params);
 

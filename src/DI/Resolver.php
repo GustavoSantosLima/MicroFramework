@@ -1,6 +1,6 @@
 <?php
 
-namespace ErikFig\DI;
+namespace Gustavo\DI;
 
 class Resolver
 {
